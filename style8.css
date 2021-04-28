@@ -1,0 +1,290 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+.nav {
+    height: 100px;
+    width: 100%;
+    background-color: black;
+}
+.nav-title {
+    color: white;
+    font-size: 50px;
+    margin-left: 210px;
+}
+.nav, .nav-links {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+}
+.nav-links {
+    color: white;
+    font-size: 22px;
+    flex: 1;
+    margin-right: 450px;
+}
+.nav-links a{
+    color: white;
+    font-weight: light;
+}
+.signOut button {
+    background-color: rgb(8, 196, 196);
+    color: white;
+    border: 2px solid black;
+    box-shadow: black 2px 2px 2px 2px;
+    font-size: 25px;
+    margin-right: 270px;
+    width: 150px;
+    position: relative;  
+}
+.active {
+    font-weight: bold;
+}
+.barrel1 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.jar1 {
+    height: 550px;
+    width: 850px;
+    background-color: white;
+    border: 2px solid black;
+}
+.bag1 {
+    height: 50%;
+    width: inherit;
+}
+.col {
+    height: 175px;
+    width: inherit;
+    background-color: aqua;
+}
+.img1 {
+    height: 200px;
+    width: 200px;
+    border: 2px solid rgb(155, 155, 155);
+    border-radius: 50%;
+    margin-left: 60px;
+    position: absolute;
+    top: 200px;
+}
+#nam {
+    font-size: 40px;
+    margin-top: 100px;
+    margin-left: 65px;
+}
+.loc {
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    margin-left: 65px;
+}
+.img3 {
+    width: 20px;
+    margin-right: 10px;
+}
+.bag2 {
+    height: 50%;
+}
+.txt1 {
+    font-size: 20px;
+    position: absolute;
+    top: 535px;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+}
+.edt {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 600px;
+    left: 260px; 
+}
+.img2 {
+    width: 25px;
+    margin-right: 15px;
+}
+.jar2 {
+    height: 550px;
+    width: 850px;
+    background-color: white;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+}
+.edBanner {
+    height: 80px;
+    width: 800px;
+    background-color: rgb(61, 61, 61);
+    color: white;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+}
+.dojo {
+    margin-left: 50px;
+    margin-top: 10px;
+}
+.coding {
+    font-size: 40px;
+    font-weight: bold;
+}
+.date {
+    font-size: 34px;
+    margin-right: 275px;
+    margin-top: 10px;
+    font-weight: lighter;
+}
+.triple {
+    font-size: 26px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.barrel2 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.jar3 {
+    height: 300px;
+    width: 500px;
+    background-color: white;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+}
+.coBanner {
+    height: 90px;
+    width: 500px;
+    background-color: rgb(61, 61, 61);
+    color: white;
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+}
+#two {
+    width: 50px;
+    margin-left: 40px;
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+.conRe {
+    margin-left: 40px;
+}
+.todRow {
+    height: 105px;
+    width: 500px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-size: 30px;
+    padding-left: 40px;
+}
+#todRow2 {
+    height: 105px;
+    width: 500px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-size: 30px;
+    padding: 0px 20px;
+}
+#todRow3 {
+    height: 105px;
+    width: 500px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-size: 30px;
+    padding: 0px 20px;
+}
+.face {
+    width: 75px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+.todd {
+    margin-left: 30px;
+}
+#accOne {
+    width: 50px;
+    margin-left: 100px;
+}
+#accOne1 {
+    width: 50px;
+    margin-left: 115px;
+}
+#denOne {
+    width: 50px;
+    margin-left: 35px;
+}
+.jar4 {
+    height: 550px;
+    width: 500px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+}
+.yoBan {
+    height: 90px;
+    width: 500px;
+    background-color: rgb(61, 61, 61);
+    color: white;
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+}
+#five {
+    width: 100px;
+    margin-left: 40px;
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+.yoCon {
+    margin-left: 40px;
+}
+.view {
+    width: 470px;
+    height: 50px;
+    background-color: rgb(61, 61, 61);
+    border-top: 2px solid grey;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    font-size: 18px;
+}
+.view a {
+    color: white;
+}
+div+div {
+    padding: px;
+}
+.jar1 +.jar2 {
+    margin-top: 50px;
+    margin-right: 0px;
+}
+.jar3 +.jar4 {
+    margin-top: 50px;
+    margin-right: 0px;
+}
+.barrel1 + .barrel2 {
+    margin-left: 90px;
+}
+.mainContent {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin-left:10%;
+    margin-top: 25px;
+}
